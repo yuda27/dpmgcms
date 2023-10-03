@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* .table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: auto;
+    border-style:groove;
+    border-radius: 10px;
+    border-color: #02502b;
+} */
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.responsive-table th, .responsive-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.responsive-table th {
+    background-color: #02502b;
+    color: #fff;
+}
+
+.responsive-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.responsive-table tbody tr:hover {
+    background-color: #028d02;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Gaya untuk tombol Download */
+.download-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #f80303;
+    color: rgb(250, 252, 150);
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+/* Gaya untuk tombol Download saat diklik */
+.download-button:active {
+    transform: scale(0.95);
+}
+
+/*Warna file tabel sub judul*/
+.warnasubjudul{
+    background-color: #0bfcc7;
+    color: #033601;
+    font-weight: bold;
+    text-align: center;
+}
+
+.warnasubjudul2{
+    background-color: #f3ff96;
+    color: #033601;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-tersedia {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f3ef05;
+    color: #030303;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
