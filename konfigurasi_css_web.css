@@ -1,0 +1,832 @@
+/** CSS Custom Template */
+
+
+/** by : Heri Mahyuda - Staf Subbag. Program, Informasi dan Humas DPMG Aceh **/ 
+/** untuk teks box */
+/**.color-box {
+	background-color:rgb(245, 240, 170);
+	width:100%;
+  	border-radius:5px;
+  	color:rgb(9, 25, 250);
+  	align-items: center;
+  	padding:5px;
+  	margin:5px;
+} */
+
+/** Garis Footer */ 
+.slim-line {
+    background-color: #023b04;
+    height: 10px;
+}
+
+/** Warna Tulisan Menu */
+header .navbar-dark .navbar-nav .nav-link {
+    color: #91fc91;
+    white-space: nowrap;
+   	font-size:16px;
+}
+
+header a:hover, a:active {
+  font-weight: bold;
+  color: yellow;
+}
+
+/** Untuk Body */
+body {
+    font-family: Roboto,Verdana;
+    font-weight: 400;
+    font-size: 15px;
+    color: #444;
+    background-color: #f1fde9;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/** Hover Medsos */
+.ig:hover{box-shadow: 2px 4px 3px 2px rgb(250, 188, 231)}
+.fb:hover{box-shadow: 2px 4px 3px 2px rgb(135, 174, 247)}
+.tw:hover{box-shadow: 2px 4px 3px 2px rgb(176, 238, 253)}
+.yt:hover{box-shadow: 2px 4px 3px 2px rgb(245, 177, 198)} 
+/** Hover Link Tautan */
+.lapor:hover{box-shadow: 4px 4px 4px 4px rgb(247, 4, 4)}
+.ppid:hover{box-shadow: 4px 4px 4px 4px rgb(7, 102, 4)}
+.opendata:hover{box-shadow: 4px 4px 4px 4px rgb(151, 62, 2)}
+.kemendes:hover{box-shadow: 4px 4px 4px 4px rgb(2, 135, 139)}
+.binapemdes:hover{box-shadow: 4px 4px 4px 4px rgb(69, 30, 247)}
+.pkkaceh:hover{box-shadow: 4px 4px 4px 4px rgb(9, 207, 233)}
+.infografis:hover{box-shadow: 4px 4px 4px 4px rgb(45, 247, 72)}
+.pilih:hover{
+            box-shadow: 2px 2px 2px 2px rgba(255, 0, 0, 0.849);
+            background-color: powderblue;
+        }
+
+/** Menghilangkan Background Transparan halaman Konten */
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+/** Menu Hover halaman Utama */
+header .nav-menu a:hover {
+    /** background-color:#3ffd38; */
+  	background-color:#c50374;
+  	/** box-shadow: 2px 4px 3px 2px rgb(145, 2, 2); */
+  	box-shadow: 2px 3px 3px 2px #faf601;
+  	border-radius:8px;
+}
+
+/** Menu Hover halaman content*/
+.navbar-collapse a:hover{
+    background-color:#c50374;
+  	box-shadow: 2px 3px 3px 2px #faf601
+    
+}
+
+/** Back Menu Detail*/
+nav.nav-menu-detail {
+    background: #02717e;
+    margin-bottom: 30px;
+    border-top: 1px solid #1d1d1d;
+    border-bottom: 3px solid #d11010;
+}
+
+/** Back Menu Plihan*/
+#navbarCollapse ul>li>ul {
+    background-image: url(/media/2021.10/backmenubawah11.png); 
+    border-style:solid;
+    border: 10px;
+    border-color: springgreen;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 2px #faf601
+    
+}
+
+/** Jarak spasi konten*/
+.cms-media-card-header {
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+
+/** Setelan Keterangan Slide Bar Berita*/
+article .mt-auto {
+    padding: 1.7rem !important;
+    padding-top: 0.7rem !important;
+    padding-right: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+    padding-left: 0.7rem !important;
+    background: transparent;
+}
+
+/** Setelan Warna Judul Slide Bar Berita*/
+.text-white {
+    color: rgb(229, 255, 100)!important;
+  	text-align: -webkit-center;
+}
+
+/** Setelan Warna Caption Slide Bar Berita*/
+.text-white-70 {
+    color: #f1f1f1;
+    text-align: -webkit-left;
+    background: rgba(1, 42, 7, 0.1);
+}
+
+/** Setelan Warna Caption Slide Bar Berita*/
+header .nav-logo {
+    padding: .0rem 0rem 0rem;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(12, 181, 3) 0,rgb(0, 0, 0) 100%);
+    z-index: 2 !important;
+  	border-bottom: 3px solid #d11010;
+}
+
+/** Setelan Header Bottom*/
+header .nav-bottom {
+    padding: .5rem 5rem;
+    background: linear-gradient(to top,rgb(6, 62, 34) 0,rgb(7, 56, 10) 51%,rgb(39, 234, 39) 100%);
+    color: #fff;
+    position: relative;
+    border-top: 1px solid #598339;
+    border-bottom: 3px solid #586404;
+    z-index: -1;
+}
+
+/** alamat Path dihalaman **/
+ul.breadcrumb-list {
+    list-style: none;
+    padding: 0;
+    float: left;
+    /* margin: 0 0 20px; */
+    display: block;
+    background-color: paleturquoise;
+    padding: 5px;
+    border: 0px solid;
+    border-color: black;
+    border-radius: 0px;
+}
+
+/** blink-background **/
+@keyframes bg-blink {
+    0% {
+        opacity: 0; /* Cahaya mati */
+    }
+    100% {
+        opacity: 1; /* Cahaya hidup */
+    }
+}
+
+/*@-webkit-keyframes bg-blink {
+    0% { background-color:#ff0000; }
+    100% { background-color:#ffffff; }
+} 
+.bg-blink {
+    -webkit-animation: bg-blink 2s linear infinite;
+    -moz-animation: bg-blink 2s linear infinite;
+    animation: bg-blink 2s linear infinite;
+}
+@keyframes bg-blink {
+  to { visibility: hidden; }
+}
+@-webkit-keyframes bg-blink {
+  to { visibility: hidden; }
+} */
+
+/** menghilangkan search **/
+/*.form-search-cover, .form-search-cover + .btn-cover {
+    display: none !IMPORTANT;
+} */
+
+/** setelan banner kiri-kanan **/
+*[name="widget_home_kiri_bawah"] {
+    position: absolute;
+    width: 160px;
+    overflow: hidden;
+    /*float: left;*/
+    /*margin-left: -190px;*/
+    margin-left: -118px;
+    margin-top: 15px;
+}
+*[name="widget_home_kanan_bawah"] {
+    position:inherit;
+  	/*position: absolute;
+  	object-position: right;
+  	object-position: unset;
+  	position: fixed;*/
+    width: 160px;
+    overflow: hidden;
+    float: right;
+  	margin-right:-126px;
+    margin-top: 15px;
+    /*margin: 0 calc(50% - 490px - 121px);
+    top: 50px;*/
+}
+
+/** SETELAN MENU PADA CONTENT PAGE **/
+.ca-menu{
+    padding: 0;
+    margin: 20px auto;
+    width: 500px;
+}
+.ca-menu li{
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+    display: block;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 4px;
+    border-left: 10px solid #000;
+    -webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.ca-menu li:last-child{
+    margin-bottom: 0px;
+}
+.ca-menu li a{
+    text-align: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    position:absolute;
+}
+/** .ca-icon{
+    font-family: 'Tahoma', cursive;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px #333;
+    line-height: 90px;
+    position: absolute;
+    width: 90px;
+    left: 20px;
+    text-align: center;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+} **/
+.ca-content{
+    position: absolute;
+    left: 120px;
+    width: 370px;
+    height: 60px;
+    top: 20px;
+}
+.ca-main{
+    font-size: 30px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.ca-sub{
+    font-size: 14px;
+    color: #666;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear; 
+}
+.ca-menu li:hover{
+    border-color: #fff004;
+    background: #000;
+}
+.ca-menu li:hover .ca-icon{
+    color: #fff004;
+    text-shadow: 0px 0px 1px #fff004;
+    font-size: 50px;
+}
+.ca-menu li:hover .ca-main{
+    color: #fff004;
+    font-size: 14px;
+}
+.more{
+	position:relative;
+	clear:both;
+    font-size: 11px;
+    padding: 20px 0px;
+    text-transform:uppercase;
+    width: 390px;
+    height:55px;
+    margin: 0 auto;
+}
+.more ul{
+	display:block;
+	text-align:center;
+}
+.more ul li{
+	display: block;
+    padding: 4px 2px;
+    float:left;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:#0099c5;
+	color:#fff;
+	text-shadow:none;
+    font-weight:bold;
+}
+.more ul li a{
+	color:#555;
+    float:left;
+	background:#fff;
+    width:64px;
+	padding: 2px 5px;
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+}
+.more ul li a:hover{
+	background:#000;
+	color:#fff;
+}
+.ca-menu li:hover .ca-sub{
+    color: #fff;
+    font-size: 30px;
+}
+.ca-menu li:hover + .iconshort:hover {
+    background-color: black;
+}
+/** AKHIR SETELAN MENU PADA CONTENT PAGE **/
+
+/** MENU TAB PADA HALAMAN **/
+/* UNTUK CSS*/
+.tab1 {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+/* Style the buttons inside the tab */
+.tab1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+  background-color: rgb(3, 3, 3);
+  color: yellow;
+}
+/* Create an active/current tablink class */
+.tab1 button.active {
+  background-color: rgb(3, 3, 3);
+  color: yellow;
+}
+/* Style the tab content */
+/*
+.tabcontent1 {
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+}
+.tablayanan {
+  background-color: #eee;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: 0px;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  transition: 0.4s;
+}
+
+.active, .tablayanan:hover {
+  background-color: rgb(5, 5, 5);
+  color: rgb(253, 253, 250);
+}
+.tablayananlink {
+    background-color: #eee;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: 0px;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+  }
+/* 
+.active, .tablayananlink:hover {
+    background-color: rgb(135, 241, 188);
+    font-weight: bold; 
+    color: rgb(0, 0, 0);
+    lighting-color: chartreuse;
+  }
+*/
+.paneltab {
+  padding: 0 5px;
+  display:;
+  background-color: white;
+  overflow: hidden;
+}
+.judulpaneltab{
+    text-align: center;
+    color:yellow;
+    background-color:black;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+}
+/** AKHIR MENU TAB PADA HALAMAN **/
+
+/** DISAIN TABEL-1 **/
+.tabel1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px solid #47abee;
+}
+.tabel1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: bold;
+    border: 0px solid #79c8fd;
+}
+.tabel1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+    border: 0px solid #79c8fd;
+}
+.tabel1 tr:hover {
+    background-color: rgb(176, 229, 252);
+}
+.iconsizetabel1 {
+    width: 135px;
+    height: 27px;
+}
+/** AKHIR DISAIN TABEL-1 **/
+
+/** GAYA FOTO STYLE UNTUK BERITA **/
+/*---- Gaya 1 */
+.fotoberitasatu {
+    float:left;
+  	padding-right : 10px;
+  	margin-top : 10px;
+    width : 300;
+  	height : 300;
+ }
+
+/** EFFECT PUTAR ICON**/
+.effectputar:hover{
+  box-shadow: 4px 4px 4px 4px rgb(45, 247, 72);
+ }
+/** AKHIR EFFECT PUTAR ICON**/
+
+/** a button link Instagram **/
+a_ig, button,input[type=submit],input[type=reset] {
+    font-family: sans-serif;font-size: 20px;background: #f331b9;color: white;
+    border: white 2px solid;border-radius: 10px;padding: 3px 70px;margin-top: 5px; }
+a_ig {text-decoration: none;}
+a_ig:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+    opacity:0.9;color: #f331b9;background-color: white;border: #f331b9 5px solid;
+    cursor: pointer;}
+/** a button link Instagram  **/
+
+/** a button link Twitter **/
+a_tw, button,input[type=submit],input[type=reset] {
+    font-family: sans-serif;font-size: 20px;background: #23b6fa;color: white;
+    border: white 2px solid;border-radius: 10px;padding: 3px 70px;margin-top: 5px; }
+a_tw {text-decoration: none;}
+a_tw:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+    opacity:0.9;color: #23b6fa;background-color: white;border: #23b6fa 5px solid;
+    cursor: pointer;}
+/** a button link Twitter  **/
+
+/** a button link Facebook **/
+a_fb, button,input[type=submit],input[type=reset] {
+    font-family: sans-serif;font-size: 20px;background: #0704e0;color: white;
+    border: white 2px solid;border-radius: 10px;padding: 3px 70px;margin-top: 5px; }
+a_fb {text-decoration: none;}
+a_fb:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+    opacity:0.9;color: #0704e0;background-color: white;border: #0704e0 5px solid;
+    cursor: pointer;}
+/** a button link Facebook  **/
+
+/** a button link Youtube **/
+a_yt, button,input[type=submit],input[type=reset] {
+    font-family: sans-serif;font-size: 20px;background: #e00404;color: white;
+    border: white 2px solid;border-radius: 10px;padding: 3px 70px;margin-top: 5px; }
+a_yt {text-decoration: none;}
+a_yt:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+    opacity:0.9;color: #e00404;background-color: white;border: #e00404 5px solid;
+    cursor: pointer;}
+/** a button link Youtube  **/
+
+/** kotakkonten **/
+.kotakkonten{
+                width: 100%;
+                height: 60px;
+                border: 10px solid rgb(250, 253, 251);
+  				border-radius:10px;
+  				margin-top: 10px;
+                margin-bottom: 10px;
+                /*background-color: rgba(14, 75, 10, 0.657);*/
+  				background: linear-gradient(to top,rgb(6, 62, 34) 0,rgb(7, 56, 10) 51%,rgb(39, 234, 39) 100%);
+                text-align:center;
+                padding-top: 6px;
+                border-style: double;
+                font-weight: bold;
+                font-size: 20px;
+  				color: aliceblue;
+            }
+/**end  kotakkonten **/
+
+/** kotak nama dpmg kab kota se aceh **/ 
+.kotakkabkota {
+  border: 2px solid rgb(7, 7, 7);
+  padding: 4px;
+  border-radius: 13px;
+  background-color:rgb(112, 241, 162);
+  text-align:center;
+  color: rgb(6, 6, 6);
+}
+/** end kotak nama dpmg kab kota se aceh **/
+
+/** tulisan alamat di footer **/
+.tulisanalamatfooter{
+        font-size: 20px;
+        border: 5px solid rgb(138, 119, 11);
+        border-radius: 10px;
+        padding: 4px;
+        border-radius: 13px;
+        background-color:rgb(3, 56, 7);
+        text-align:center;
+        color: rgb(245, 248, 246);
+ }
+/** end tulisan alamat di footer **/
+
+/** box youtube **/
+.boxyoutube{
+            width: 650px;
+            height:395px;
+            background-color: aqua;
+            border-radius:10px;
+            border-color: rgb(9, 6, 175);
+            border-style:double;
+            border-width: 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+/** end box youtube **/
+
+/** MENU PADA HALAMAN HOME **/
+.navbar-collapse {
+    /* border-radius: 8px; */
+}
+
+/** Path Page **/
+ul.breadcrumb-list {
+border-radius: 5px;
+text-decoration-color: gold;
+font-weight: bold;
+background-color: rgb(136, 5, 16);
+color: white;
+}
+ul.breadcrumb-list li a {
+    color: rgb(238, 234, 234);
+    
+}
+/** end Path Page **/
+
+header .navbar-main {
+    background: linear-gradient(to right,rgba(5, 37, 5, 0.9) 0,rgba(3, 65, 3, 0.85) 51%,rgba(5, 37, 5, 0.9) 100%);
+}
+
+/* PERBAIKI LIST DPMG KAB KOTA/
+/* Container daftar */
+        .scrollable-list {
+            width: auto;
+            height: 600px;
+            overflow: auto;
+            border: 1px solid #040404;
+            border-radius: 10px;
+            padding: 10px;
+           
+        }
+
+	.scrollable-list1 {
+            width: auto;
+            height: 600px;
+            overflow: auto;
+            border: 3px solid #0574be;
+            border-radius: 10px;
+            padding: 10px;
+      }
+
+        /* Daftar item */
+        .scrollable-list ul {
+            list-style: none;
+            padding: 0;
+            
+            
+        }
+
+        .scrollable-list li {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            background-color: #cdf4dc;
+            
+        }
+
+        
+
+        /* Gaya teks dalam daftar */
+        .scrollable-list .list-text {
+            color: #333;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        /* Gaya gambar */
+        .scrollable-list .list-image {
+            width: 40px;
+            height: 40px;
+            border-radius: 5%;
+            margin-right: 10px;
+        }
+
+        /* Gaya scrollbar */
+        .scrollable-list::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .scrollable-list::-webkit-scrollbar-thumb {
+            background-color: #1800b0;
+            border-radius: 4px;
+        }
+
+        .scrollable-list::-webkit-scrollbar-thumb:hover {
+            background-color: #1800b0;
+        }
+
+        .scrollable-list::-webkit-scrollbar-track {
+            background-color:;
+        }
+/* AKHIR PERBAIKI LIST DPMG KAB KOTA*/
+
+/*SLIDER IMAGE*/
+/* @keyframes slide {
+    0%, 20% { left: 0; }
+    25%, 45% { left: -1000px; }
+    50%, 70% { left: -2000px; }
+    75%, 95% { left: -3000px; }
+    100% { left: -3000px; }
+} */
+
+@keyframes slide {
+    0%, 20% { left: 0; }
+    25%, 45% { left: -1100px; }
+    50%, 70% { left: -2200px; }
+    75%, 95% { left: -3300px; }
+    100% { left: -4400px; }
+}
+.wrapperslider {
+    width: 1100px;
+    height: 400px;
+    margin-top: 23px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    animation: slide 80s linear infinite;
+    position:absolute ;
+}
+
+.slider img {
+    width: 1100px;
+    height: 400px;
+}
+/*AKHIR SLIDER IMAGE*/
+
+/*SETINGGAN UNTUK TABEL LINK*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* .table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: auto;
+    border-style:groove;
+    border-radius: 10px;
+    border-color: #02502b;
+} */
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.responsive-table th, .responsive-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.responsive-table th {
+    background-color: #02502b;
+    color: #fff;
+}
+
+.responsive-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.responsive-table tbody tr:hover {
+    background-color: #028d02;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Gaya untuk tombol Download */
+.download-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #f80303;
+    color: rgb(250, 252, 150);
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+/* Gaya untuk tombol Download saat diklik */
+.download-button:active {
+    transform: scale(0.95);
+}
+
+/*Warna file tabel sub judul*/
+.warnasubjudul{
+    background-color: #0bfcc7;
+    color: #033601;
+    font-weight: bold;
+    text-align: center;
+}
+.warnasubjudul2{
+    background-color: #f3ff96;
+    color: #033601;
+    font-weight: bold;
+    text-align: center;
+}
+.button-tersedia {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f3ef05;
+    color: #030303;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+/*AKHIR SETINGGAN UNTUK TABEL LINK*/
+
+.buttonset {
+	margin:7px;
+}
+
+.anima-button:hover {
+    transform: scale(1.2);
+    /* ===tambahan */
+            transform: scale(1.1); /* Perbesar tombol saat dihover */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  			animation:bg-blink 0.8s linear infinite;  
+            background:transparent;
+}
+  
